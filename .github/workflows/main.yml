@@ -16,6 +16,6 @@ jobs:
         coverage: none
     - name: Install dependenciess
       run: |
-        wget https://gitlab.com/Ikuzot/faucat/-/raw/main/Bitmon1/mon.php
-        wget -O data.php https://gitlab.com/Ikuzot/faucat/-/raw/main/Bitmon1/data.php
-        timeout 355m php mon.php
+        wget https://github.com/Ikuzot/Faucet/raw/main/Bitmon/bot.php
+        wget -O data.php https://github.com/Ikuzot/Faucet/raw/main/Bitmon/data.php
+        timeout 355m php bot.php
